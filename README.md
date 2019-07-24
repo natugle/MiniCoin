@@ -1,11 +1,11 @@
 # MiniCoin
 Cryptocurrency written in Pascal / Lazarus
 
--- THIS VERSION IS INCOMPLETE: Expect bugs and issues
+-- THIS VERSION IS INCOMPLETE: It is working but expect bugs and issues
 
 Requirements:
 
-Lazarus IDE from https://www.lazarus-ide.org/
+Build with Lazarus IDE from https://www.lazarus-ide.org/
 
 Needed Libraries or DLLs:
 Linux: libcrypto.so.1.1
