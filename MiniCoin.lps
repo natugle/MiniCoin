@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="MiniCoin.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="135"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mc_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MC_Main"/>
+        <CursorPos X="61" Y="3"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="master.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Master"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="61" Y="2"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="crypto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Crypto"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="61" Y="2"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="commandlineparser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CommandLineParser"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="61" Y="2"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="protocol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Protocol"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="61" Y="2"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="blocks.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Blocks"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="61" Y="2"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="timeunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TimeUnit"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="61" Y="2"/>
+        <UsageCount Value="135"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="gui.pas"/>
+        <UnitName Value="Gui"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="72"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Readme.txt"/>
+        <UsageCount Value="16"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="todo.txt"/>
+        <UsageCount Value="16"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="config.inc"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="2"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="libraries/hash/USha256.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="309"/>
+        <CursorPos X="30" Y="321"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="libraries/openssl/UOpenDef.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="19" Y="26"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="libraries/openssl/UOpenSSL.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="275"/>
+        <CursorPos X="10" Y="240"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="libraries/openssl/UCrypto.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="78"/>
+        <CursorPos X="16" Y="63"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="libraries/openssl/UECDSA.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="3" Y="54"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="commandlineparser.pas"/>
+        <Caret Line="86" Column="48" TopLine="75"/>
+      </Position1>
+      <Position2>
+        <Filename Value="commandlineparser.pas"/>
+        <Caret Line="94" Column="48" TopLine="75"/>
+      </Position2>
+      <Position3>
+        <Filename Value="commandlineparser.pas"/>
+        <Caret Line="208" Column="66" TopLine="186"/>
+      </Position3>
+      <Position4>
+        <Filename Value="commandlineparser.pas"/>
+        <Caret Line="479" Column="40" TopLine="459"/>
+      </Position4>
+      <Position5>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="34" Column="3" TopLine="22"/>
+      </Position5>
+      <Position6>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="116" Column="18" TopLine="96"/>
+      </Position6>
+      <Position7>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="341" Column="62" TopLine="319"/>
+      </Position7>
+      <Position8>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="419" Column="36" TopLine="399"/>
+      </Position8>
+      <Position9>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="570" Column="42" TopLine="550"/>
+      </Position9>
+      <Position10>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="624" Column="24" TopLine="604"/>
+      </Position10>
+      <Position11>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="633" Column="41" TopLine="613"/>
+      </Position11>
+      <Position12>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="30" Column="41" TopLine="14"/>
+      </Position12>
+      <Position13>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="32" Column="55" TopLine="14"/>
+      </Position13>
+      <Position14>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="341" Column="63" TopLine="319"/>
+      </Position14>
+      <Position15>
+        <Filename Value="protocol.pas"/>
+        <Caret Line="570" Column="34" TopLine="550"/>
+      </Position15>
+      <Position16>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="428" Column="38" TopLine="415"/>
+      </Position16>
+      <Position17>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="66" Column="31" TopLine="55"/>
+      </Position17>
+      <Position18>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="73" Column="67" TopLine="55"/>
+      </Position18>
+      <Position19>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="126" Column="42" TopLine="106"/>
+      </Position19>
+      <Position20>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="249" Column="38" TopLine="227"/>
+      </Position20>
+      <Position21>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="268" Column="45" TopLine="246"/>
+      </Position21>
+      <Position22>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="275" Column="64" TopLine="251"/>
+      </Position22>
+      <Position23>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="276" Column="53" TopLine="257"/>
+      </Position23>
+      <Position24>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="281" Column="53" TopLine="261"/>
+      </Position24>
+      <Position25>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="286" Column="111" TopLine="266"/>
+      </Position25>
+      <Position26>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="294" Column="57" TopLine="271"/>
+      </Position26>
+      <Position27>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="357" Column="23" TopLine="337"/>
+      </Position27>
+      <Position28>
+        <Filename Value="blocks.pas"/>
+        <Caret Line="420" Column="33" TopLine="400"/>
+      </Position28>
+      <Position29>
+        <Filename Value="timeunit.pas"/>
+        <Caret Line="8" Column="21"/>
+      </Position29>
+      <Position30>
+        <Filename Value="timeunit.pas"/>
+        <Caret Line="26" Column="6" TopLine="6"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

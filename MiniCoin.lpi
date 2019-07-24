@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value=" MiniCoin Wallet"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value=""/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="MiniCoin.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mc_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MC_Main"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="master.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Master"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="crypto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Crypto"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="commandlineparser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CommandLineParser"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="protocol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Protocol"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="blocks.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Blocks"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="timeunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TimeUnit"/>
+      </Unit7>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="MiniCoin"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="libraries\indylaz;libraries\hash;libraries\openssl"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Optimizations>
+        <OptimizationLevel Value="2"/>
+      </Optimizations>
+      <SmallerCode Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <UseLineInfoUnit Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+</CONFIG>
